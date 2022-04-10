@@ -48,7 +48,7 @@ git commit -m "Put some message about this push here"
 ```
 git push --set-upstream origin feature/[Your branch name]
 ```
-## if you get errors, you need to pull before pulling
+## if you get errors, you need to pull before pushing
 ```
 git pull --rebase origin [Your branch name]
 
