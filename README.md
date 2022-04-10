@@ -48,6 +48,12 @@ git commit -m "Put some message about this push here"
 ```
 git push --set-upstream origin feature/[Your branch name]
 ```
+## if you get errors, you need to pull before pulling
+```
+git pull --rebase origin [Your branch name]
+
+git push -u origin [Your branch name]
+```
 
 ### Validate your changes have been triggered by gitlab-ci in
 [propitix-scm] (https://gitlab.com/propitix/microservices/frontend-propitix)
